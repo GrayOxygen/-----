@@ -1,0 +1,8 @@
+@import "../../style/weui.wxss";
+.weui-cell__bd{
+    white-space:nowrap
+}
+
+#mainTitle{
+    font-weight: 700;
+}

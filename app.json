@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/weixincontents/weixincontents",
+    "pages/index/index",
+    "pages/location/location",
+    "pages/delivery/delivery",
+    "pages/weixincontents/article/article",
+    "pages/example/test",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "时刻趣闻",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "debug": true
+}

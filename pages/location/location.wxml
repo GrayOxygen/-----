@@ -1,0 +1,6 @@
+<scroll-view class="container" id="map" scroll-y="true">
+<view>
+    <text class="text">只可用微信地图</text>
+</view>
+
+</scroll-view>

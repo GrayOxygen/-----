@@ -1,0 +1,33 @@
+/* pages/example/test.wxss */
+
+.scroll-view-item {
+  width: 100px;
+  height: 100px;
+}
+.scroll-view_H{
+}
+page{
+    width:100%;
+}
+.section{
+    width:100%;
+}
+.scroll-view-item_H{
+    width: 100px;
+  height: 100px;
+}
+.bc_green {
+  background-color: green;
+}
+
+.bc_red {
+  background-color: red;
+}
+
+.bc_yellow {
+  background-color: yellow;
+}
+
+.bc_blue {
+  background-color: blue;
+}

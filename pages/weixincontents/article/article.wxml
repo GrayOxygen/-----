@@ -1,0 +1,37 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title"></view>
+    <view class="page__desc"></view>
+  </view>
+  <view class="page__bd">
+    <view class="weui-article">
+      <view class="weui-article__h1"></view>
+      <view class="weui-article__section">
+
+        <block wx:for="{{contentArray}}" wx:for-item="item">
+          <block wx:if="{{item.type=='text'}}">
+            <view class="weui-article__p">
+              {{item.content}}
+            </view>
+          </block>
+
+          <block wx:if="{{item.type=='img'}}">
+            <view class="weui-article__p">
+              <image class="weui-article__image" src="{{item.content}}" mode="aspectFit" style="height: 180px" />
+            </view>
+          </block>
+
+
+
+        </block>
+
+
+      </view>
+    </view>
+
+
+
+
+
+  </view>
+</view>
